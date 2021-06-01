@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Test </title>
+</head>
+<body>
+   
+	<form>
+		<input style = "border: none;outline: none;" id = "t" type = "text" placeholder = "Email address"> <br> 
+		<span id = "error_msg" style = "display: none;color: red;">Email is required. <br></span> <br>
+		<a id = "b" href = "#">Submit</a> <br> <br>
+    </form>
+	
+	<script src = "jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			
+			$("#b").click(function(){
+				
+				// $("").show();
+				// $("").hide();
+				// $("#t").focus();
+				
+				email = $("#t").val();
+				if(email == "")
+				{
+					$("#t").css("border-bottom" , "1px solid red");
+					$("#error_msg").show();
+				}
+			});
+		});
+	</script>
+	
+</body>
+</html>

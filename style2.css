@@ -1,0 +1,379 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    font-family: Helvetica;
+    background-color: #2d1f1f;
+    font-weight: bold;
+}
+
+#bg{
+    
+    background-image: url(bg4.png);
+    background-size: cover;
+}
+
+.header{
+    
+    color: #e50914;
+    padding: 20px 50px;
+    font-size: 45px;
+}
+
+.btn{
+    
+    background-color: #e50914;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    border-radius: 2.5px;
+    float: right;
+    font-size: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.main{
+    
+    color: white;
+    text-align: center;
+    margin-top: 140px;
+    padding-bottom: 185px;
+    border-bottom: 8px solid #a9a9a940;
+}
+
+.para1{
+    
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+}
+
+.para2{
+    
+    font-weight: normal;
+    font-size: 29px;
+    margin: 17px 0;
+}
+
+.para3{
+    
+    font-weight: normal;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.main input{
+    
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-top: 8px;
+    width: 430px;
+    height: 43px;
+    font-size: 15.5px;    
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.top div{
+    
+    position: relative;
+}
+
+.main label{
+    
+    font-weight: normal;
+    color: #999;
+    position: absolute;
+    top: 431px;
+    left: 340px;
+    transition: 0.4s;
+    pointer-events: none;
+}
+
+.main input:focus ~ label{
+    
+    position: absolute;
+    top: 416px;
+    left: 335px;
+    font-size: 75%;
+}
+
+.main #button{
+    
+    width: 250px;
+    height: 55px;
+    font-size: 1.6em;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+.main #button:hover{
+ 
+    background-color: #f5141f;
+}
+
+#border{
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 565px;
+    width: 340px;
+    border: 1px solid rgba(0,0,0,0.75);
+    border-radius: 3px;
+    color: #b3b3b3;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.75);
+    margin-bottom: 110px;
+}
+
+.main-signin h1{
+    
+    color: white;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 16px;
+}
+
+.main-signin input{
+    
+    border: none;
+    outline: none;
+    width: 280px;
+    color: rgb(195, 195, 195);
+    height: 40px;
+    font-size: 16px;
+    background-color: rgb(51, 51, 51);
+    padding: 6px 15px 4px 15px;
+    border-radius: 4px;
+    margin: 12px 13px 2px 13px;
+}
+
+#email{
+    
+    font-weight: normal;
+    color: #737373;
+    position: absolute;
+    top: 36%;
+    left: 532px;
+    transition: 0.4s;
+    pointer-events: none;
+}
+
+#textbox1:focus ~ #email{
+    
+    position: absolute;
+    top: 221px;
+    font-size: 70%;
+}
+
+#pass{
+    
+    font-weight: normal;
+    color: #999;
+    position: absolute;
+    top: 298px;
+    left: 530px;
+    transition: 0.4s;
+    pointer-events: none;
+}
+
+#textbox2:focus ~ #pass{
+    
+    position: absolute;
+    top: 286px;
+    font-size: 70%;
+}
+
+.main-signin a{
+    
+    text-decoration: none;
+    color: #737373;
+    font-weight: normal;
+    float: right;
+    margin: 14px 20px;
+    font-size: 90%;
+    line-height: 12px;
+}
+
+.main-signin a:hover{
+    
+    text-decoration: underline;
+}
+
+#btn{
+    
+    width: 310px;
+    height: 45px;
+    background: #e50914;
+    color: white;
+    font-weight: bold;
+    margin-top: 27.5px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+#box{
+    
+    width: 14px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-right: 3px;
+    color: #737373;
+}
+
+.bottom{
+    
+    margin-top: 70px;
+}
+
+.bottom a{
+    
+    float: none;
+    margin-left: 0px;
+}
+
+.bottom a i{
+    
+    margin-right: 9px;
+    font-size: 1.3em;
+}
+
+.bottom p{
+    
+    font-weight: normal;
+    margin: 0 15px;
+    color: #757575;
+}
+
+.footer{
+    
+    width: 100%;
+    background: rgba(0,0,0,0.75);
+    color: #999;
+    display: block;
+    font-weight: normal;
+}
+
+.footer-top{
+    
+    padding-top: 50px;
+    margin-left: 73px;
+}
+
+.footer a{
+    
+    text-decoration: none;
+    outline: none;
+    color: #999;
+}
+
+.footer a:hover{
+    
+    text-decoration: underline;
+}
+
+.inner-footer{
+    
+    width: 95%;
+    margin-left: 65px;
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-items{
+    
+    width: 25%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.footer-items ul{
+    
+    list-style: none;
+    letter-spacing: 0.5px;
+}
+
+.footer-items ul li{
+    
+    margin: 10px 0;
+    height: 25px;
+}
+
+.footer-bottom{
+    
+    margin-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.options{
+
+    width: 110px;
+    border: 1px solid #73737399;
+    border-radius: 2px;
+    background-color: black;
+    color: #999;
+    padding: 12.5px 15px;
+    margin-left: 160px;
+}
+
+@media screen and (max width: 1085px){
+    
+    #bg{
+        
+        width: 50%;
+    }
+}
+
+/*
+
+#footer{
+    
+    width: 100%;
+    display: block;
+    color: #999;
+    font-family: Helvetica;
+    font-weight: normal;
+    padding: 50px 0;
+    background-color: black;
+}
+
+#footer ul{
+    
+    margin: 16px;
+}
+
+#footer ul li{
+    
+    display: inline;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+#footer ul li a{
+    
+    margin-right: 80px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #757575;
+    font-family: Helvetica;
+}
+
+#footer ul li a:hover{
+    
+    text-decoration: underline;
+}*/
